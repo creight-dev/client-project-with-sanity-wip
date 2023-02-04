@@ -1,8 +1,8 @@
-import * as React from "react";
+import * as React from 'react'
 
 // styles
-import "./styles.css";
+import './styles.css'
 
 // components
-export * from "./Button";
-export * from "./Card";
+export * from './Button'
+export * from './Card'
