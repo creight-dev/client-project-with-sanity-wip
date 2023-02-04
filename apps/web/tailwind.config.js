@@ -1,3 +1,6 @@
 // tailwind config is required for editor support
-
-module.exports = require('tailwind-config/tailwind.config.js')
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  presets: [require('tailwind-config/turbo-preset')],
+  content: ['src/**/*.{js,ts,jsx,tsx}'],
+}
